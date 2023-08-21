@@ -19,6 +19,7 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
           _before: {
             height: "100%",
           },
+          cursor:"pointer"
         }}
         position="relative"
         borderRadius="30px"
