@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
+import { Image } from "@chakra-ui/react";
 
 export const Contact = () => {
   return (
@@ -7,9 +8,10 @@ export const Contact = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
-            <img
+            <Image
               className="animate__animated animate__zoomIn"
               src={contactImg}
+              animation={"updown 3s linear infinite"}
               alt="Contact Us"
             />
           </Col>
